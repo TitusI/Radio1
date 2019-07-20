@@ -12,24 +12,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is Activity 2"
+        android:text="Radio RMI"
         android:textSize="30sp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="lockSlide"
-        android:text="Lock slide" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="unlockSlide"
-        android:text="Unlock slide" />
 
     <WebView
         android:id="@+id/WebView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="556dp" />
 
 </LinearLayout>

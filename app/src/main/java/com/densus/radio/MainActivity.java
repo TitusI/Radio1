@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         String url = "http://80.211.9.137:8000"; // your URL here
         final MediaPlayer mediaPlayer = new MediaPlayer();
+
         mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
         try {
             mediaPlayer.setDataSource(url);
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 if(mediaPlayer.isPlaying()){
                     mediaPlayer.pause();
                 } else {
-                    mediaPlayer.start();
+                        mediaPlayer.start();
                 }
 
 
